@@ -1,0 +1,189 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 40px 0 0 50px;
+}
+
+header .link-header {
+  margin-right: 20px;
+  color: #17233d;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 0.88px;
+  transition: 0.3s ease-in-out;
+}
+
+header .link-header:hover {
+  color: #6fbf44;
+  font-size: 16px;
+}
+
+header .button-header {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 124px;
+  height: 51px;
+  background-color: #6fbf44;
+  border: 1px solid #4cb538;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+header .button-header:hover {
+  opacity: 0.7;
+}
+
+header .button-header:active {
+  opacity: 0.5;
+}
+
+main .img-logo {
+  margin: 150px 0 0 100px;
+  transition: 0.5s ease-in-out;
+  display: inline-block;
+}
+
+main .img-logo:hover {
+  transform: scale(1.01);
+}
+
+main section {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+main section h1 {
+  color: #161a49;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  width: 582px;
+}
+
+main section p {
+  margin: 40px 0;
+  color: #4b505a;
+  letter-spacing: 0.5px;
+  line-height: 33px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 493px;
+}
+
+main section a {
+  color: #6fbf44;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1373px) {
+  header {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  main .img-logo {
+    margin: 80px auto 22px auto;
+    display: block;
+  }
+
+  main section {
+    text-align: center;
+    margin: 0;
+    display: block;
+    width: 100%;
+  }
+
+  main section h1 {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  main section p {
+    margin: 30px auto;
+    padding: 0 20px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  header {
+    margin: 0;
+  }
+
+  header .link-header {
+    display: none;
+  }
+
+  header .button-header {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 91px;
+    height: 31px;
+    font-size: 12px;
+  }
+
+  main .img-logo {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    top: 60%;
+  }
+
+  main .img-logo:hover {
+    transform: scale(1);
+  }
+
+  main section {
+    margin: 25% 0 0 0;
+    text-align: center;
+    display: block;
+    padding: 0 20px;
+  }
+
+  main section h1 {
+    font-size: 30px;
+    line-height: 30px;
+    width: auto;
+  }
+
+  main section p {
+    margin: 23px 0;
+    font-size: 18px;
+    line-height: 33px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  main .img-logo {
+    top: 69%;
+  }
+
+  main section h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  main section p {
+    margin: 14px 0;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  main section a {
+    font-size: 15px;
+  }
+}
