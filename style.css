@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #1d3d12;
+}
+
 header {
   margin: 40px 0 0 50px;
 }
@@ -84,6 +88,14 @@ main section a {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+}
+
+main section a:hover {
+  opacity: 0.7;
+}
+
+main section a:active {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 1373px) {
